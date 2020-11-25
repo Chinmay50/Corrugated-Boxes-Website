@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About - Hard Rock Boxes | Ecommerce Website Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<img src="images/logo1.png" width="200px">
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<img src="images/cart.png" width="30px" height="30px">
+				<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+			</div>
+		</div>
+	<!---------offer------>
+	<div class="offer">
+		<div class="small-container">
+			 <div class="col-2">
+				<img src="images/Backg.png" class="offer-img">
+					<h2 class="title">Contact us</h2>
+					<h4>Phone/Whatsapp : 8527779881<br><br>Email us: riteshverma0210@gmail.com</h4>
+			</div>
+		</div>
+	</div>
+<!-------------footer------------->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-2">
+					<img src="images/logo1.png">
+					<p>Our purpose is to provide the products and services to help you to execute your brand.</p>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Instagram</li>
+						<li>Twitter</li>
+					</ul>
+				</div>	
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2020 - Hard Rock Boxes</p>
+		</div>
+	</div>			
+<!----------js for toogle menu------>
+<script>
+	var MenuItems=document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight="0px";
+	function menutoggle(){
+		if(MenuItems.style.maxHeight=="0px")
+		{
+			MenuItems.style.maxHeight="200px"	
+		}
+		else
+		{
+			MenuItems.style.maxHeight="0px"
+		}
+	}
+</script>
+</body>
+</html>
