@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About - Hard Rock Boxes | Ecommerce Website Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<img src="images/logo1.png" width="200px">
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<img src="images/cart.png" width="30px" height="30px">
+				<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+			</div>
+		</div>
+	<!---------offer------>
+	<div class="offer">
+		<div class="small-container">
+			 <div class="col-2">
+				<img src="images/about.png" class="offer-img">
+					<h2 class="title">Who we are!</h2>
+					<h4>Hard Rock Boxes was established 16 years ago in 2005, serving demand via eco-friendly products. It is one stop shop for all your need in packaging and manufacturong of corrugated boxes. We are committed to deliver the premium cases for all premium goods because we understand it has to be good both outside and inside. Today our solutions are found in segments as building, retail,food and beverages, manufacturing, publishing,pharmaceutical,cosmetics,confectionary, hygiene and textiles.<br><br>Tomorrow, we believe there is the potential to produce anything that's made with fossil-based materials from a tree. We have our manufacturing units established in Hazaribagh, Jharkhand and in Kosi Kalan,Uttar Pradesh. To execute with classified finishing packaging, we have a separate wing dedicated for Research and Development which primarly runs on the objective of coming up with new material solution everytime. Overall, we aim to be a leader in our field, preferred partner, and a respected member in the societies where we work, bringing value to our customers, employees, investors, suppliers, and other stakeholders.<br>WE WANT TO HELP YOU EXECUTE YOUR BRAND!</h4>
+					<h2 class="title">Quality</h2>
+					<h4>We at Hard Rock Boxes work on fostering quality eact time we commit to deliver our service. A seprate wing highly dedicated to Research and development, helps us to come up with new material solutions to achieve excellence in quality of our products.<br><br> A highly committed team if engineers that prepare packaging product samples with material desigh are tried and tested to make certain that the finished product can withstand the rigors of packing, handling, static storage and shipping.<br><br> *Bursting strength tester*<br><br>Burst factor of incoming paper, and <br><br> Bursting strength of Corrugated Board<br><br>*Crush tester*<br><br> ECT of the corrugated board,<br><br> RCT of paper, <br><br>CCT & CMT of paper, <br><br> Flat crush of Corrugated Board,<br><br> Pin adhesion test.<br><br>*Compression Strength tester*<br><br> For measuring the ability of corrugated boxes to resist external compressive loads.<br><br>*Puncture Resistance tester*<br> <br>Checking the energy required to force a puncture head through corrugated board.</h4>
+			</div>
+		</div>
+	</div>
+<!-------------footer------------->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-2">
+					<img src="images/logo1.png">
+					<p>Our purpose is to provide the products and services to help you to execute your brand.</p>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Instagram</li>
+						<li>Twitter</li>
+					</ul>
+				</div>	
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2020 - Hard Rock Boxes</p>
+		</div>
+	</div>			
+<!----------js for toogle menu------>
+<script>
+	var MenuItems=document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight="0px";
+	function menutoggle(){
+		if(MenuItems.style.maxHeight=="0px")
+		{
+			MenuItems.style.maxHeight="200px"	
+		}
+		else
+		{
+			MenuItems.style.maxHeight="0px"
+		}
+	}
+</script>
+</body>
+</html>
